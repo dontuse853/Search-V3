@@ -5,10 +5,10 @@
   "description": "Sets a custom Streamlit app as the default search engine.",
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "Custom Streamlit Search",
-      "keyword": "st",
-      "favicon_url": "https://streamlit.app/favicon.ico",
-      "search_url": "https://streamlit.app/?q={searchTerms}",
+      "name": "dontuse",
+      "keyword": "dontuse",
+      "favicon_url": "https://dontuse.streamlit.app/favicon.ico",
+      "search_url": "https://dontuse.streamlit.app/?q={searchTerms}",
       "encoding": "UTF-8",
       "is_default": true
     }
