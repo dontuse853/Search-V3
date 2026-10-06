@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Streamlit Search",
+  "version": "1.0.0",
+  "description": "Sets a custom Streamlit app as the default search engine.",
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Custom Streamlit Search",
+      "keyword": "st",
+      "favicon_url": "https://streamlit.app/favicon.ico",
+      "search_url": "https://streamlit.app/?q={searchTerms}",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
